@@ -8,7 +8,7 @@ module Ruboty
       )
 
       def clock(message)
-      	Ruboty::Actions::
+      	Ruboty::Actions::Clodk.new(message).call
         #now = Time.now
 	#message.reply("#{now.hour}:#{now.min}")
       end
